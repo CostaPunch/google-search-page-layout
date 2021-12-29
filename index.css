@@ -9,41 +9,18 @@ html {
 }
 
 .nav-header {
-    display: grid;
-    grid-template-columns: 10px 10px 10px 10px 30px 30px;
-    grid-auto-flow: row;
-    justify-content: space-between;
-}
-
-.grid3 {
-    height: 30px;
-    max-width: 30px;
-    margin: -5px;
-    background-color: #09853dfa;
     display: flex;
-    border-radius: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.item-a {
-    padding-left: 30px;
+.nav-item {
+    margin: 10px;
 }
 
-.item-c {
-    padding-left: 100px;
-}
-
-.item-d {
-    padding-left: 70px;
-}
-
-.item-e {
-    padding-left: 45px;
-}
-
-.item-f {
-    padding-left: 10px;
-    padding-top: 5px;
-    color: white;
+.nav-item-container {
+    display: flex;
 }
 
 .grid div:hover {
