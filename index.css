@@ -9,7 +9,6 @@ html {
 }
 
 .nav-header {
-<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +21,6 @@ html {
 
 .nav-item {
     margin: 10px;
-=======
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,7 +33,6 @@ html {
 
 .nav-item-container {
     display: flex;
->>>>>>> 6578d9ae5db85a39f3990b9b50ab2d05e23be662
 }
 
 .nav-item-container div:hover {
