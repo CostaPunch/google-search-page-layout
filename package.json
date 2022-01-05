@@ -1,7 +1,6 @@
 {
   "name": "google-search-page-layout",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "serve ."
@@ -18,5 +17,10 @@
   "homepage": "https://github.com/CostaPunch/google-search-page-layout#readme",
   "devDependencies": {
     "serve": "^13.0.2"
-  }
+  },
+  "dependencies": {
+    "async": "^3.2.2"
+  },
+  "keywords": [],
+  "description": ""
 }

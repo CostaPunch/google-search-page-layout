@@ -32,6 +32,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -5px;
     /* justify-content: space-between; */
 }
 
@@ -53,46 +54,67 @@ main {
 
 /*--nav right side-- */
 
-.nav-item-container {
-    display: inline-flex;
-    align-items: center;
+.nav-item-container-left {
+    display: flex;
+    align-self: center;
 }
 
-@media screen and (max-width: 480px) {
-    .nav-item-container {
-        display: inline-flex;
+.nav-item-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-item-container-right {
+        display: flex;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
 
-.nav-item-container div:hover {
+@media screen and (max-width: 480px) {
+    .nav-item-container-right {
+        display: flex;
+        align-items: center;
+        margin-right: 170px;
+    }
+}
+
+.nav-item-container-right div:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.nav-item a {
-    display: flex;
-    height: 21px;
-    width: 21px;
-    box-sizing: border-box;
-    text-align: center;
-    align-self: center;
+.nav-item-container-left div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-item-google-apps {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     outline: none;
 }
 
-.nav-item a:hover {
-    display: block;
-    height: 40px;
+.nav-item-google-apps a {
+    display: flex;
+    height: 21px;
+    width: 21px;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+.nav-item-google-apps:hover {
     width: 40px;
-    box-sizing: border-box;
+    height: 40px;
     border-radius: 50%;
-    align-items: center;
     cursor: pointer;
-    outline: none;
-    align-self: center;
     background-color: #dadce0;
-    border: 1px solid #dadce0;
 }
 
 .nav-item input {
