@@ -272,9 +272,6 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-evenly;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                border-top: 1px solid #dbdbdbe3;
                 background-color: #ece9e9;
                 margin: -8px;
                 font-size: 100%;
