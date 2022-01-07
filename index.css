@@ -267,20 +267,6 @@
             }
         }
         
-        @media screen and (max-width: 700px) {
-            .nav-footer {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                border-top: 1px solid #dbdbdbe3;
-                background-color: #ece9e9;
-                margin: -8px;
-                font-size: 90%;
-            }
-        }
-        
         @media screen and (max-width: 480px) {
             .nav-footer {
                 display: flex;
